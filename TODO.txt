@@ -1,0 +1,16 @@
+Left off with being able to go back and forth and keeping the visuals,
+
+next is to update sidebar so when you change pages it updates, okay
+then it is to edit the points
+then creat a copy from last for points 
+
+
+
+
+# update make so you can delete the last point
+
+
+Should actually have a make and an edit one
+s
+
+s
