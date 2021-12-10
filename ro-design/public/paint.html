@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.5/dat.gui.min.js" type="text/javascript"></script>
+</head>
+<body>
+    <div id="message">Drag mouse to paint.</div>
+    <canvas id='c'></canvas>
+    <script src="paint.js"></script>
+<style>
+    body {
+        font-family: 'Anaheim', sans-serif;
+        padding: 0;
+        margin: 0;
+        background: black;
+        overflow: hidden;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -o-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+
+    }
+
+    canvas {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+
+    #message {
+        color: #e2e2de;
+        opacity: 25%;
+        font-size: 32px;
+        text-align: center;
+        letter-spacing: 2px;
+        position: fixed;
+        top: 50%;
+        z-index: 0;
+        width: 100%;
+        margin-top: -0.5em;
+        text-shadow: 0 -1px 0 #d3d3d1;
+    }
+
+    .dg.ac {
+        z-index: 2;
+    }
+</style>
+</body>
+</html>
